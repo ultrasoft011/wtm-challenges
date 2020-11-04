@@ -1,7 +1,8 @@
 const multiplicacion = (a, b) => {
   // Esta función tiene un problema. Pueden encontrar cuál es?
-  a * b  
-};
+  result = (a * b);
+  return result;
+}
 
-module.exports = mutiplicacion; // No remover
+module.exports = multiplicacion; // No remover
 

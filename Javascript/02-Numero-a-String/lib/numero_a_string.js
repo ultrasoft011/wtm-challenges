@@ -1,9 +1,11 @@
 const numeroAString = (numero) => {
-  // implementar una función que convierta un number a un string
+	let strA = numero.toString();
+	return strA;
 };
 
 const stringANumero = (string) => {
-  // implementar una función que convierta un número en formato string a number
+	var numA = parseInt(string);
+	return numA; 
 };
 
 module.exports = numeroAString; // No remover
